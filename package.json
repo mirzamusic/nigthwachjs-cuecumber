@@ -1,0 +1,28 @@
+{
+  "name": "device42ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.conf.js",
+  "scripts": {
+    "e2e": "npm-run-all e2e-test:chrome e2e-report --continue-on-error",
+    "e2e-report": "node create-html-report.js",
+    "e2e-test": "nightwatch",
+    "e2e-test:chrome": "npm run e2e-test -- --env chrome",
+    "e2e-test:firefox": "npm run e2e-test -- --env firefox",
+    "e2e-test:handless": "npm run e2e-test -- --env chromehandless",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch --env chrome"
+  },
+  "dependencies": {
+    "chromedriver": "^2.32.3",
+    "cucumber": "^3.0.3",
+    "cucumber-pretty": "^0.0.5",
+    "geckodriver": "^1.10.0",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.2.9",
+    "phantomjs-prebuilt": "^2.1.16",
+    "selenium-server": "^3.7.1"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^3.0.4"
+  }
+}
