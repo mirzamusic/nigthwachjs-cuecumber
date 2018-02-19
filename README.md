@@ -1,4 +1,4 @@
-# nigthwachjs-cuecumber# nightwatchjs-pages-quickstart
+# nigthwachjs cuecumber quickstart
 Selenium end to end automation tests with NightwatchJS page oriented
 
 ## Prepare
