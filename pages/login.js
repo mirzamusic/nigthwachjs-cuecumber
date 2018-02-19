@@ -24,7 +24,7 @@ const commands = {
         selector: 'input[name="password"][type="password"]'
       },
       submitButton: {
-        selector: 'input[type=submit]'
+        selector: 'button[type=submit]'
       },
     }
   };

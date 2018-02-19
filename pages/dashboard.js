@@ -1,7 +1,7 @@
 const commands = {
     verifyLogin: function (config) {
-        return this
-        .assert.title(config.title)
+      this.api.pause(2000);        
+       return this.assert.title(config.title)
     }
   };
   

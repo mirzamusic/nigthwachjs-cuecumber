@@ -8,6 +8,9 @@ Selenium end to end automation tests with NightwatchJS page oriented
 
 ## Setup and Run
 npm i -g nightwatch
+
 npm i -g npm-run-all
+
 npm i
+
 npm run e2e
